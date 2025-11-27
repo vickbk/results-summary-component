@@ -8,8 +8,8 @@ export const ResultCard = () => {
   return (
     <article>
       <h2 className="sr-only">A card with your results</h2>
-      <ResultSummary results={results} />
       <ResultPreview score={score} />
+      <ResultSummary results={results} />
     </article>
   );
 };
