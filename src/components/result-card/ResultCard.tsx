@@ -1,3 +1,15 @@
+import { ResultPreview } from "./preview/ResultPreview";
+import { ResultSummary } from "./summary/ResultSummary";
+import { default as results } from "../../assets/data.json";
+
 export const ResultCard = () => {
-  return <div>ResultCard</div>;
+  const score =
+    results.reduce((total, { score }) => total + score, 0) / results.length;
+  return (
+    <article>
+      <h2 className="sr-only">A card with your results</h2>
+      <ResultSummary results={results} />
+      <ResultPreview score={score} />
+    </article>
+  );
 };
