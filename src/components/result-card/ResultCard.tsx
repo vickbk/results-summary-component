@@ -6,7 +6,7 @@ export const ResultCard = () => {
   const score =
     results.reduce((total, { score }) => total + score, 0) / results.length;
   return (
-    <article>
+    <article className="text-center">
       <h2 className="sr-only">A card with your results</h2>
       <ResultPreview score={score} />
       <ResultSummary results={results} />
