@@ -23,7 +23,12 @@ export const ResultSummary = ({ results }: { results: SummaryItemType[] }) => {
           />
         ))}
       </ul>
-      <button type="button">Continue</button>
+      <button
+        className="dark-gray-blue c-white rounded-l-full rounded-r-full p-4"
+        type="button"
+      >
+        Continue
+      </button>
     </section>
   );
 };
