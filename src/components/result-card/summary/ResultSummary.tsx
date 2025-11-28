@@ -24,7 +24,7 @@ export const ResultSummary = ({ results }: { results: SummaryItemType[] }) => {
         ))}
       </ul>
       <button
-        className="dark-gray-blue c-white rounded-l-full rounded-r-full p-4"
+        className="action-btn dark-gray-blue c-white rounded-l-full rounded-r-full p-4"
         type="button"
       >
         Continue
