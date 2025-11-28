@@ -10,7 +10,7 @@ export const SummaryItem = ({
   return (
     <li
       className={`flex items-center gap-4 p-4 rounded-lg ${color}`}
-      style={{ "--bg-accent": 0.05 } as CSSProperties}
+      style={{ "--bg-accent": 0.03 } as CSSProperties}
     >
       <img src={icon} alt="" />
       <span className={"mr-auto font-bold c-" + color}>{category}</span>

@@ -21,7 +21,7 @@
   --dark-gray-blue: 224 30% 27%;
 
   /* System */
-  --background: var(--white);
+  --background: var(--pale-blue);
   --foreground: var(--dark-gray-blue);
 
   /* accent colors */
