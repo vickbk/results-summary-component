@@ -12,4 +12,5 @@ export default defineConfig({
     }),
     tailwindcss(),
   ],
+  base: "https://vickbk.github.io/results-summary-component/",
 });

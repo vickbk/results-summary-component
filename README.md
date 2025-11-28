@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Git Repo](https://github.com/vickbk/results-summary-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github pages](https://vickbk.github.io/results-summary-component/)
 
 ## My process
 
