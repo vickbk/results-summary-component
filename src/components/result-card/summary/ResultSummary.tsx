@@ -11,7 +11,7 @@ export const ResultSummary = ({ results }: { results: SummaryItemType[] }) => {
   } as const;
   return (
     <section className="p-8 grid gap-4">
-      <h3 className="text-start font-bold">
+      <h3 className="text-start font-bold text-2xl">
         Summary <SROnly>of your results</SROnly>
       </h3>
       <ul className="grid gap-4">
