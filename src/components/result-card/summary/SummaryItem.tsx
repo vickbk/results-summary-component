@@ -14,7 +14,7 @@ export const SummaryItem = ({
     >
       <img src={icon} alt="" />
       <span className={"mr-auto font-bold c-" + color}>{category}</span>
-      <span className="font-bold">{score}</span> / 100
+      <span className="font-bold">{score}</span>/ 100
     </li>
   );
 };
